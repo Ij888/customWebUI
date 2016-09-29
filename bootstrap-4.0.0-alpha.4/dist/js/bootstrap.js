@@ -568,7 +568,7 @@ var Carousel = (function ($) {
   var ARROW_RIGHT_KEYCODE = 39; // KeyboardEvent.which value for right arrow key
 
   var Default = {
-    interval: 5000,
+    interval: false,
     keyboard: true,
     slide: false,
     pause: 'hover',
